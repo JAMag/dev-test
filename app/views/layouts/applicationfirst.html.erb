@@ -1,0 +1,255 @@
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Site Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- link rel="stylesheet" media="only screen and (min-width: 600px)" href="application.scss" />
+  <link rel='stylesheet' media='screen and (max-width: 599px)' href='css/medium.scss' /---->
+
+  <%= csrf_meta_tags %>
+
+  <%= stylesheet_link_tag 'desktop', media: '(min-width: 700px)', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag 'application', media: '(max-width: 700px)', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+  <script src="http://www8.hp.com/us/en/scripts/framework/jquery/v-1-8/jquery.js"></script>
+  <script src="http://www8.hp.com/us/en/scripts/framework/jquery/v-1-8/can.jquery.js"></script>
+  <link href="http://www.www8-hp.com/us/en/system/styles/rdt/rdt-typo.css" rel="stylesheet" type="text/css"/>
+  <script src="http://www8.hp.com/caas/header-footer/us/en/hpe/latest.r?contentType=js"></script>
+
+</head>
+
+<body>
+
+<div id="everything" class="everything">
+  <div id="content">
+    <div id="header" class="header">
+    </div>
+
+    <div id="body" class="body">
+      <div class="container">
+        <div><H1><strong>
+          Composable Infrastructure partner program
+        </strong></H1></div>
+        <div><h2>Part of HP AllianceOne</h2></div>
+        <div class="jumbotron">
+          <h2><strong>Single, open API for programmatic control of infrastructure</strong></h2>
+          <div>
+            <h3>Enables ISVs to treat infrastructure as code</h3>
+          </div>
+          <button type="button" class="btn btn-default btn1">GitHuB ></button>
+        </div>
+
+        <div id="more-info">
+          <div id="border-bottom" class="col-md-4">
+            <A HREF="#overview"><h3>Overview</h3></A>
+          </div>
+          <div id="border-bottom" class="col-md-4">
+            <A HREF="#benefits"><h3>Benefits</h3></A>
+          </div>
+          <div id="border-bottom-right" class="col-md-4">
+            <A HREF="#partners"><h3>Partners</h3></A>
+          </div>
+        </div>
+
+
+        <div id="first-content">
+          <div id="checkerboard1" class="row">
+            <div class="col-sm-8">
+              <div id="overview-text1">
+                <A NAME="overview"></a>
+                <p>
+                <h2><strong>To keep pace with the needs of a digitally-driven enterprise, organizations need a new approach to
+                  infrastructure.</strong></h2>
+                <h3>A Composable Infrastructure uses flexible pools of compute, storage, and fabric, and a template-based
+                  approach to abstract infrastructure elements and automate operational changes at scale.</h3>
+                </p>
+                <button type="button" class="btn btn-default btn2">Learn more about HP's vision of Composable Infrastructure</button>
+              </div>
+            </div>
+            <div id="image1" class="col-sm-3">
+              <%= image_tag("image1.png", alt: "image1") %>
+            </div>
+          </div>
+          <div class="container">
+            <div id="checkerboard2" class="row">
+              <div id="HP-One" class="cold-md-3">
+                <%= image_tag("HP_OneView.png", alt: "HP OneView") %>
+              </div>
+              <div id="overview-text2" class="col-md-8">
+                <p>
+                <h2><strong>ISV’s and developers can programmatically control a Composable Infrastructure through a single
+                  open RESTful API.</strong></h2>
+                <h3>This API is delivered by HP OneView, which automates the provisioning, configuration, and monitoring of
+                  HP infrastructure. By integrating with this Composable Infrastructure API, ISVs can provide solutions
+                  that let customers reduce the time spent managing their environments and accelerate time-to-value. By
+                  providing interoperability with a single API, ISVs can support customer requirements for both
+                  traditional IT environments and the rapidly growing digital economy.</h3>
+                </p>
+                <p>
+                <h3>The HP Composable Infrastructure partner program, part of HP AllianceOne, provides a set of tools and
+                  resources that enable ISV’s and developers to build interoperability between HP OneView and other
+                  software for programmatic access to infrastructure.</h3>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div id="more-info">
+          <div id="border-bottom2" class="col-md-4">
+            <h3><%= link_to "Access software development kit on GitHub" %></h3>
+          </div>
+          <div id="border-bottom3" class="col-md-4">
+            <h3><%= link_to "Find more technical information" %></h3>
+          </div>
+          <div id="border-bottom2" class="col-md-4">
+            <h3><%= link_to "Join the program for more benefits" %></h3>
+          </div>
+        </div>
+
+
+        <div id="container-explore">
+          <div id="center-text">
+            <h2><strong>Explore the tabs on this website to learn more about the resources available to partners, and the benefits for
+              both partners and customers.</strong></h2>
+            <button type="button" class="btn btn-default btn3">Learn more about that HP Composable Infrastructure partner program</button>
+          </div>
+        </div>
+
+        <div id="benefits" class="container">
+          <A NAME="benfits"></a>
+          <div id="benefits-heading">
+            <h1> By joining the HP Composable Infrastructure partner program, you can:</h1>
+          </div>
+          <div id="benefits1" class="col-md-5">
+            <%= image_tag("R_image.png", alt: "R Image") %>
+            <div id="benefits1-text">
+              <h2>Increase your product's value to customers with HP BladeSystem, HP ProLiant serers, and HP 3PAR
+                StoreServ storage </h2>
+              <div id="benefits-list">
+                <li><h4>Provide a consistent and reliable representation of their HP infrastructure in your application</h4></li>
+                <li><h4>Automate their processes using a software-defined approach to control infrastructure changes from your
+                  application</h4></li>
+                <li><h4>Help them bridge the requirements of traditional IT and digital business</h4></li>
+              </div>
+            </div>
+          </div>
+
+          <div id="benefits2" class="col-md-5">
+            <%= image_tag("L_image.png", alt: "L Image") %>
+            <div id="benefits2-text">
+              <h2>Access comprehensive technical and go-to-market resources to speed development and sales</h2>
+              <div id="benefits-list">
+                <li><h4>Leverage HP technical resources including a simulated data center environment for testing and
+                  validation</h4></li>
+                <li><h4>Gain customer exposure on hp.com and through HP's broad sales force and channel partner network</h4></li>
+                <li><h4>Use the HP Composable Infrastructure partner insignia to promote your solutions</h4></li>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="keep-pace">
+          <%= image_tag("Office_Enterprise_RGB_blue_NT.png", alt: "office enterprise") %>
+          <div id="keep-pace-heading">
+            <h2>To keep pace with the needs of a digitally-driven enterprise, organizations need a new approach to
+              infrastructure.</h2>
+          </div>
+          <div id="keep-pace-text">
+            <p><h3><bolder>
+            A Composable Infrastructure uses flexible pools of compute, storage, and fabric, and a template-based
+            approach to abstract infrastructure elements and automate operational changes at scale.</h3></p>
+            <p><h3></bolder>
+            The following partners are working with HP to build solutions that let organizations reduce the time spent
+            on managing their environments and accelerate time-to-value. By providing interoperability with a single
+            API, based on HP OneView, ISVs can support customer requirements for both traditional IT environments and
+            the rapidly growing digital economy.</h3></p>
+          </div>
+        </div>
+
+        <div id="partners" class="container">
+          <div id="developer" class="col-md-3" style="width:400px;overflow:auto;">
+            <A NAME="partners"></a>
+            <div id="image" class="content">
+              <%= image_tag("developer.png", alt: "developer") %>
+            </div>
+            <div id="partners-list">
+              <h3>     Developer resources</h3>
+            </div>
+            <div id="partners-list1">
+              <ul>Integration with HP OneView: A technical guide for ISVs and developers</ul>
+              <ul> HP OneView 1.20 REST API Reference</ul>
+              <ul><a href="www.hp.com/go/oneview/docs"><b>HP OneView Document library </b></a></ul>
+              <ul><a href=http://h20565.www2.hp.com/hpsc/doc/public/display?sp4ts.oid=5410258&docId=emr_na-c04508723&docLocale=en_US><b>HP OneView Support Matrix</b></a></ul>
+            </div>
+          </div>
+
+          <div id="product" class="col-md-5">
+            <div id="image" class="content">
+              <%= image_tag("product.png", alt: "product") %>
+            </div>
+            <div id="partners-list">
+              <h3>     Product information</h3>
+            </div>
+            <div id="partners-list1">
+              <ul><a href=
+                             http://www8.hp.com/us/en/business-solutions/converged-systems/oneview.html?jumpid=reg_r1002_usen_c-001_title_r0001><b> HP OneView product web page</b></a></ul>
+              <ul><a href=http://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA4-6214ENW</ul><b>HP OneView data sheet </b></a></ul>
+              <ul><a href=http://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA5-3811ENW><b>HP OneView architectural advantages technical white paper</b></a></ul>
+              <ul><a href=http://www.hp.com/go/oneviewdemos><b>HP OneView demos </b></a></ul>
+              <ul><a href=http://www.hp.com/go/bladesystem><b>HP BladeSystem </b></a></ul>
+            </div>
+          </div>
+
+          <div id="contact" class="col-md-3">
+            <div id="image" class="content">
+              <%= image_tag("contact.png", alt: "contact") %>
+            </div>
+            <div id="partners-list">
+              <h3>Contact information</h3>
+            </div>
+            <div id="partners-list2">
+              <strong>Contact us at</strong>: ComposableAPIprogram@hp.com
+            </div>
+          </div>
+
+          <div id="communities" class="col-md-5">
+            <div id="image" class="content">
+              <%= image_tag("communities.png", alt: "communities") %>
+            </div>
+            <div id="partners-list">
+              <h3>     Communities</h3>
+            </div>
+            <div id="partners-list1">
+              <ul>Join Alliances on <strong>LinkedIn</strong></ul>
+              <ul>Follow Alliances on <strong>Twitter</strong></ul>
+              <ul>Follow AllianceOne on <strong>Twitter</strong></ul>
+              <ul>Connect with <strong>Alliance Blogs</strong></ul>
+              <ul>Enterprise Business on <strong>Facebook</strong></ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="footer" class="footer">
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
+
+<script>
+    $('a[href*=#]').on('click', function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+    });
+</script>

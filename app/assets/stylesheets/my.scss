@@ -1,0 +1,568 @@
+@font-face {
+  font-family: 'HP Simplified W02 Light';
+  src: font-url('latin-e-light-ttf.ttf')format('truetype');
+  src: font-url('latin-e-light-eot.eot?#iefix') format('embedded-opentype');
+  src: font-url('latin-e-light-woff.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'HP Simplified';
+  src: font-url('hpsimplified_rg-webfont.eot');
+  src: font-url('hpsimplified_rg-webfont.svg#r\hpsimplified_rg-webfont') format('svg'),
+  font-url('hpsimplified_rg-webfont.eot?#iefix') format('embedded-opentype'),
+  font-url('hpsimplified_rg-webfont.woff') format('woff'),
+  font-url('hpsimplified_rg-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'HP Simplified';
+  src: url(asset-path('hpsimplified_bd-webfont.eot'));
+  src: url(asset-path('hpsimplified_bd-webfont.svg#r\hpsimplified_bd-webfont')) format('svg'),
+  font-url(asset-path('hpsimplified_bd-webfont.eot?#iefix')) format('embedded-opentype'),
+  font-url(asset-path('hpsimplified_bd-webfont.woff')) format('woff'),
+  font-url(asset-path('hpsimplified_bd-webfont.ttf')) format('truetype');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@media screen and (max-width: 770px) {
+  #border-bottom3 {
+    border-style: hidden !important;
+  }
+  #border-bottom2 {
+    width: 100% !important;
+  }
+  .navbar {
+    text-align: center !important;
+  }
+
+  #center-text {
+
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  #benefits2 {
+    position: relative !important;
+    left: 10px !important;
+  }
+}
+
+
+@media screen and (min-width: 1000px) {
+  #developer {
+    float: left;
+  }
+
+  #contact {
+    float: left;
+    position: relative;
+    bottom: 44px;
+  }
+
+  #product {
+    float: right;
+    position: relative;
+    right: 100px;
+    top: 8px;
+  }
+
+  #communities {
+    float: right;
+    position: relative;
+    bottom: 48px;
+    right: 100px;
+  }
+}
+
+
+
+
+.navbar {
+  border-style: solid !important;
+  background-color: rgba(255, 255, 255, .7);
+  border-color: #737574 !important;
+  border: 1px;
+  border-radius: 0px;
+  border-left: 0px;
+  border-right: 0px;
+
+}
+
+
+
+strong, b {
+  font-weight: bold;
+}
+
+.body {
+  margin-left:auto;
+  margin-right:auto;
+  max-width:960px;
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 14px;
+    font-family: 'HP Simplified W02 Light';
+  }
+
+  p {
+    font-size: 14px;
+    font-family: 'HP Simplified W02 Light';
+  }
+  .btn {
+    font-size: 18px;
+    font-family: 'HP Simplified W02 Light';
+  }
+}
+
+.content {
+  margin: 20px;
+  padding: 10px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-placeholder {
+  margin: 0 0 40px 0;
+}
+
+.fixed .nav-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+
+.fixed .nav-inner-most {
+  padding: 0 20px;
+}
+
+
+
+
+
+#image img {
+  border-style: solid;
+  border-color: white;
+  border-bottom-width: 1px;
+  padding-bottom: 10px;
+  margin: 10px 0px 10px 10px;
+}
+
+.container {
+  width: auto;
+
+}
+
+
+
+.jumbotron {
+  background: url("banner-main.jpg") no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+  min-height:305px;
+  border-radius: 0px !important;
+  h2 {
+    width: 200px;
+    font-family: 'HP Simplified W02 Light', Arial, Helvetica, sans-serif;
+  }
+}
+
+.col-md-6 {
+  margin: 10px;
+  padding: 10px;
+}
+
+.btn1 {
+  background-color: rgba(35, 146, 209, .5);
+  border-color: rgba(35, 146, 209, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.btn2 {
+  background-color: rgba(35, 146, 209, 0);
+  border-color: rgba(35, 146, 209, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  color: rgba(35, 146, 209, 1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.btn3 {
+  background-color: rgba(255, 255, 255, .5);
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+#more-info {
+}
+
+#partners {
+  background-color: #2392d1 !important;
+  color: white;
+  padding: 20px;
+  vertical-align: middle;
+  h3 {
+    border-style: solid;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    margin-bottom: 10px;
+  }
+  a {
+    color: white;
+  }
+}
+
+
+#first-content{
+  height: auto;
+}
+
+
+#overview-text1 {
+  padding: 10px;
+  margin: 20px 20px 20px 10px;
+  h2 {
+    color: #606060;
+    font-weight: bolder;
+  }
+  h3 {
+    color: #ababac;
+  }
+}
+
+#overview-text2 {
+  float: right;
+  h2 {
+    color: #606060;
+  }
+  h3 {
+    color: #ababac;
+  }
+}
+
+#image1 {
+  float: right;
+  width: 300px;
+  padding: 10px;
+  position: relative;
+  right: 20px;
+}
+
+#HP-One {
+  float: left;
+  width: 300px;
+  padding: 10px;
+  margin-top: 0px;
+  align-items: top;
+  position: relative;
+  bottom: 10px;
+}
+
+
+
+#border-bottom {
+  border-style: solid;
+  border-color: #737574;
+  margin-top: 0px;
+  margin-right: 0px;
+  border-width: 1px;
+  padding: 10px;
+  white-space: nowrap;
+  border-right: 0px;
+  border-left: 0px;
+  width: auto;
+  text-align: left;
+  position: relative;
+  bottom: 37px;
+  h3 {
+    color: #737574;
+  }
+}
+
+#border-bottom-right {
+  border-style: solid;
+  border-color: #737574;
+  margin-top: 0px;
+  margin-right: 0px;
+  border-width: 1px;
+  padding: 10px;
+  white-space: nowrap;
+  border-right: 0px;
+  border-left: 0px;
+  width: 83%;
+  text-align: left;
+  position: relative;
+  bottom: 37px;
+  h3 {
+    color: #737574;
+  }
+}
+
+#border-bottom1 {
+  border-style: solid;
+  color: rgba(35, 146, 209, 1);
+  margin-top: 0px;
+  margin-right: 0px;
+  border-width: 1px;
+  padding: 20px;
+  white-space: nowrap;
+  border-right: 0px;
+  border-left: 0px;
+  width: 33.3%;
+  h3 {
+    color: rgba(35, 146, 209, 1);
+  }
+}
+
+#border-bottom2 {
+  border-style: solid;
+  color: rgba(35, 146, 209, 1);
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px;
+  padding: 20px;
+  white-space: nowrap;
+  border-right: 0px;
+  border-left: 0px;
+  width: 33%;
+  text-align: center;
+  h3 {
+    color: rgba(35, 146, 209, 1);
+  }
+  a {
+    color: rgba(35, 146, 209, 1);
+  }
+}
+
+#border-bottom3 {
+  border-style: solid;
+  color: rgba(35, 146, 209, 1);
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px;
+  padding: 20px;
+  white-space: nowrap;
+  text-align: center;
+  h3 {
+    color: rgba(35, 146, 209, 1)!important;
+  }
+  a {
+    color: rgba(35, 146, 209, 1);
+  }
+}
+
+
+#container-explore {
+  background: url("banner-explore.jpg") no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+  border-radius: 0px;
+  color: white;
+  align-items: center;
+  h2 {
+    text-align: center;
+    vertical-align: bottom;
+  }
+}
+
+#benefits {
+  h1 {
+    color: #737574;
+  }
+  h2 {
+    color: rgba(35, 146, 209, 1);
+  }
+  h4 {
+    color: #737574;
+  }
+  margin-right: 0px;
+  margin-left: 0px;
+  position: relative;
+  right: 40px;
+}
+
+#benefits1 {
+  float: left;
+  vertical-align: top;
+  position: relative;
+  left: 10px;
+}
+
+
+
+#benefits2 {
+  float: right;
+  vertical-align: top;
+  position: relative;
+  right: 45px;
+}
+
+#keep-pace {
+  background-color: #d6d9d9;
+  text-align: center;
+  padding: 10px;
+  height: 100%;
+  h2 {
+    color: #147ec4;
+    font-family: "HP Simplified", Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+  }
+  h3 {
+    color: #737574;
+  }
+  img {
+    margin: 20px;
+  }
+
+}
+
+#developer {
+}
+
+#contact {
+}
+
+
+#product {
+}
+
+#communities {
+}
+
+strong{
+  font-weight:bold;
+}
+
+#learn-more {
+  margin: 10px;
+}
+
+#center-text {
+  position: relative;
+  text-align: center;
+  margin-top: 20%;
+  width: 60%;
+  margin-left: 20%;
+}
+
+#benefits1-text {
+  position: relative;
+  margin-right: 10%;
+  left: 120px;
+  bottom: 100px;
+}
+
+#benefits-list {
+  margin-top: 20px;
+  margin-right: 10%;
+  position: relative;
+  left: 5px;
+
+}
+
+#benefits2-text {
+  position: relative;
+  margin-right: 10%;
+  left: 120px;
+  bottom: 100px;
+}
+
+#benefits-heading {
+  position: relative;
+  left: 30px;
+  margin-bottom: 25px;
+}
+
+#keep-pace-heading {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#keep-pace-text {
+  margin-right: 90px;
+  margin-left: 90px;
+}
+
+.partners-list {
+  width: 150px;
+  padding-bottom: 10px;
+  position: relative;
+  left: 80px;
+  bottom: 64px;
+}
+
+.partners-list1 {
+  padding-bottom: 10px;
+  position: relative;
+  left: 0px;
+  bottom: 64px;
+}
+
+#partners-list2 {
+  padding-bottom: 10px;
+  position: relative;
+  left: 40px;
+  bottom: 64px;
+}
+
+#image-notworking {
+  border-style: solid;
+  border-color: white;
+  border-bottom: 1px !important;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+
+#checkerboard1 {
+  margin-bottom: 20px;
+}
+
+#checkerboard2 {
+  margin-bottom: 20px;
+}
+
+
